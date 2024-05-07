@@ -7,7 +7,11 @@
     <h1>Order List</h1>
     <ul>
         {% for order in orders %}
-            <li>{{ order.customer_name }} - {{ order.status }}</li>
+            <li>{{ order.customer_name }} - {{ order.status }}
+                {% if order.status != 'cancelled' %}
+                    <a href="{% url 'cancel_order' order.pk %}">(Cancel)</a>
+                {% endif %}
+            </li>
         {% endfor %}
     </ul>
     <a href="{% url 'create_order' %}">Create New Order</a>
