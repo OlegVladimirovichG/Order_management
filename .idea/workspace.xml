@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5b16007-eaf4-4f74-b39c-1b26eed042ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/order_management/orders/templates/orders/change_status.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order_management/orders/templates/orders/delete_order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_management/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/order_management/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_management/order_management/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/order_management/order_management/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_management/orders/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/order_management/orders/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_management/orders/templates/orders/order_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/order_management/orders/templates/orders/order_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_management/orders/templates/orders/order_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/order_management/orders/templates/orders/order_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_management/orders/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/order_management/orders/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="c5b16007-eaf4-4f74-b39c-1b26eed042ba" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +38,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "0944b8f7"
+    "git-widget-placeholder": "2b60406f"
   }
 }]]></component>
   <component name="RunManager">
