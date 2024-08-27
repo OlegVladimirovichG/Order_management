@@ -1,0 +1,14 @@
+from django.shortcuts import render, redirect, get_object_or_404
+from .models import Order
+from .forms import DeleteOrderForm  # Убедитесь, что этот импорт присутствует
+
+def delete_order(request, order_id):
+    order = get_object_or_404(Order, pk=order_id)
+    if request.method == 'POST':
+        form = DeleteOrderForm(request.POST, instance=order)
+        if form.is_valid():
+            order.delete()
+            return redirect('order_list')
+    else:
+        form = DeleteOrderForm(instance=order)
+    return render(request, 'orders/delete_order.html', {'form': form})
